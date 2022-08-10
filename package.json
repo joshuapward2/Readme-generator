@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "readme generator that allows you to easily generate a quality readme file.",
+  "main": "yes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuapward2/Readme-generator.git"
+  },
+  "author": "Joshua Ward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuapward2/Readme-generator/issues"
+  },
+  "homepage": "https://github.com/joshuapward2/Readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
