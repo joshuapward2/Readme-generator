@@ -171,17 +171,17 @@ inquirer.prompt(questions).then((answers) => {
 
 # Title
 
-
 ## ${answers.title}
 
 
 # Licenses
 
+
 ## This application is covered under the open-source software license:
-${answers.instructions}
+###${answers.instructions}
 
 ## License Badge:
-![License](https://img.shields.io/badge/${answers.instructions}-blue.svg)
+![](https://img.shields.io/badge/${answers.instructions}-blue.svg)
 
 
 # Description
@@ -217,10 +217,10 @@ ${answers.instructions}
 # Questions
 
 ## Link to my Github listed below:
-![](https://www.github.com/${answers.github})
+https://www.github.com/${answers.github}
 
 ## My email:
-![](${answers.email})
+${answers.email}
 
 
     `)

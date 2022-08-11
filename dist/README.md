@@ -12,17 +12,17 @@
 
 # Title
 
-
 ## g
 
 
 # Licenses
 
+
 ## This application is covered under the open-source software license:
-The Apache License
+###General public license(GPL)
 
 ## License Badge:
-![License](https://img.shields.io/badge/The Apache License-blue.svg)
+![](https://img.shields.io/badge/General public license(GPL)-blue.svg)
 
 
 # Description
@@ -58,10 +58,10 @@ The Apache License
 # Questions
 
 ## Link to my Github listed below:
-![](https://www.github.com/f)
+https://www.github.com/g
 
 ## My email:
-![](f)
+g
 
 
     
