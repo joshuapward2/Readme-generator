@@ -136,14 +136,14 @@ const questions = [
     {
         type: 'input',
         message: 'Please enter your full email address',
-        name: 'github',
-        validate: (githubInput) => {
-            if (githubInput) {
+        name: 'email',
+        validate: (emailInput) => {
+            if (emailInput) {
 
                 return true
             }
             else {
-                console.log('Please enter your github username here!');
+                console.log('Please enter your full email address here!');
                 return false
             }
 
