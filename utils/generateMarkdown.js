@@ -1,3 +1,15 @@
+
+//For UCF graders only:I did not use this code for the challenge.  But i wasnt sure if it was ok to be deleted 
+
+
+//For all other please disregard.  It's leftover code from incomplete ideas
+
+
+
+
+
+
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
