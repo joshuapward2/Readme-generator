@@ -5,11 +5,6 @@ const fs = require('fs')
 
 // TODO: Create an array of questions for user input
 
-// questionsArr => {
-
-//     return inquirer
-//         .prompt().then()
-// };
 
 
 
@@ -139,15 +134,18 @@ inquirer.prompt(questions).then((answers) => {
 
 # Title
 
-## ${answers.title}
 
+## ${answers.title}
 
 
 # Licenses
 
+
 ![License](https://img.shields.io/badge/${answers.instructions}-blue.svg)
 
+
 # Description
+
 
 ## ${answers.description}
 
@@ -155,17 +153,21 @@ inquirer.prompt(questions).then((answers) => {
 
 # Installation-Instruction
 
+
 ## ${answers.installation}
 
 
 # Usage-information
+
 
 ## ${answers.usage}
 
 
 # Contributions 
 
+
 ## ${answers.contribution}
+
 
 # Tests
 
@@ -173,6 +175,14 @@ inquirer.prompt(questions).then((answers) => {
 
     `)
 })
+
+
+
+
+
+// function examples that starter code provided/Went a different route
+
+
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) { }
 

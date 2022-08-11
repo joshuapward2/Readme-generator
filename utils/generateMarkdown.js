@@ -8,7 +8,7 @@ function renderLicenseBadge(license) {
     return `
     ${license}
     `
-    // return ?
+    // return 
   }
   else{
     console.log('No license link will be displayed')
