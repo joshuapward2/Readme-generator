@@ -116,6 +116,40 @@ const questions = [
         choices: ['General public license(GPL)', 'The Apache License', 'Microsoft Public Licenses(MS-PL)', 'Berkely Software Distribution(BSD)']
     },
 
+    {
+        type: 'input',
+        message: 'Please enter your Github username',
+        name: 'github',
+        validate: (githubInput) => {
+            if (githubInput) {
+
+                return true
+            }
+            else {
+                console.log('Please enter your github username here!');
+                return false
+            }
+
+        }
+    },
+
+    {
+        type: 'input',
+        message: 'Please enter your full email address',
+        name: 'github',
+        validate: (githubInput) => {
+            if (githubInput) {
+
+                return true
+            }
+            else {
+                console.log('Please enter your github username here!');
+                return false
+            }
+
+        }
+    }
+
 ]
 
 //Answers returned and markdown template interpolated
@@ -175,6 +209,16 @@ inquirer.prompt(questions).then((answers) => {
 # Tests
 
 ## ${answers.test}
+
+
+# Questions
+
+## Link to my Github listed below:
+
+![](https://www.github.com/${answers.github})
+
+## My email:
+
 
     `)
 })
