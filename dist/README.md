@@ -13,13 +13,16 @@
 # Title
 
 
-## h
+## g
 
 
 # Licenses
 
+## This application is covered under the open-source software license:
+The Apache License
 
-![License](https://img.shields.io/badge/General public license(GPL)-blue.svg)
+## License Badge:
+![License](https://img.shields.io/badge/The Apache License-blue.svg)
 
 
 # Description
@@ -44,18 +47,21 @@
 # Contributions 
 
 
-## gd
+## g
 
 
 # Tests
 
-## d
+## g
 
 
 # Questions
 
-Link to my Github listed below:
+## Link to my Github listed below:
+![](https://www.github.com/f)
 
-## ![](https://www.github.com/joshuapward2/password-generator-)
+## My email:
+![](f)
+
 
     
