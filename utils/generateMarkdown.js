@@ -2,11 +2,13 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
 
- .filter
+
 
   if(license){
-
-    return ?
+    return `
+    ${license}
+    `
+    // return ?
   }
   else{
     console.log('No license link will be displayed')
@@ -39,7 +41,12 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+  # Title
+  ${data.title}
+
+  # License
+  ${renderLicenseBadge(data.instructions)}
 
 `;
 }
